@@ -11,7 +11,7 @@ export class StorageClient {
             baseURL: BASE_URL,
 
             headers: {
-                Authorization: `Bearer ${config.apiKey}`,
+                Authorization: `Bearer ${this.config.apiKey}`,
             },
         });
     }
